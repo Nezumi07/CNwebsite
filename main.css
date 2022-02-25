@@ -1,0 +1,82 @@
+/* Basic layout */
+
+h1 {
+    color: aquamarine;
+    font-size: 50px;}
+
+/* p   {
+    color:cadetblue;
+} */
+
+/* this line below will overwrite everything */
+/* h1, h2, p {
+    color:lightblue;
+} */
+
+/* This will make the whole page the following style */
+/* * {
+    color:cornflowerblue;
+    background-color: aquamarine;
+} */
+
+/* You can combine these style classes */
+
+/* .introspacing{
+    padding: 25px;
+    margin: 50px;
+}
+
+.large {
+    font-size: 35px;
+}
+
+.aquabackground {
+    background-color:aquamarine;
+}
+
+.center {
+    text-align: center;
+}
+
+.navspace {
+    padding: 0px 30px 0px 0px;
+}
+
+#imgedit{
+    width: 25%;
+} */
+
+
+/* body {
+    background-image: url("mockbg.jpeg") ;
+    background-size: 80% ;
+} */
+
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    padding: 15px;
+    
+    width: 400px;
+   
+}
+
+/* Colours for each box */
+
+.box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; }
